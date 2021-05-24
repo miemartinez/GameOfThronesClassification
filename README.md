@@ -1,4 +1,4 @@
-# Text Classification with Game Of Thrones 
+# Game Of Thrones 
 ### Text classification using Deep Learning
 **This project was developed as part of the spring 2021 elective course Cultural Data Science - Language Analytics at Aarhus University.** <br>
 
