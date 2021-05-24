@@ -121,6 +121,7 @@ In conclusion, the best model was the simple logistic regression model with TF-I
 This was not the expected outcome. However, the convolutional neural network seems to be overfitting a lot on the training data with the best performing model that includes the Adam optimization. 
 So, another approach that might be worth exploring would be to remove the convolutional layer from this model and maybe add a dropout layer.
 
-The plot below shows the model history for the CNN run on the balanced data for 20 epochs with the SGD optimizer:
-![alt text](https://github.com/miemartinez/GameOfThronesClassification/blob/main/output/CNN_model_history.png?raw=true)
-Here it is evident that the model is starting to overfit on the data after around 13 epochs.
+The plot below shows the model history for the CNN run on the balanced data for 20 epochs with the SGD optimizer: <br>
+![alt text](https://github.com/miemartinez/GameOfThronesClassification/blob/main/output/CNN_model_history.png?raw=true) <br>
+
+Here it is evident that the model is starting to overfit on the data after around 5 epochs.
